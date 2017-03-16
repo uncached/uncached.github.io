@@ -12,8 +12,8 @@ body.css(
 backgrounds[current = ++current % backgrounds.length]
 );
 
-setTimeout(nextBackground, 5000);
+setTimeout(nextBackground, 15000);
 }
-setTimeout(nextBackground, 5000);
+setTimeout(nextBackground, 15000);
 body.css('background', backgrounds[0]);
 });
