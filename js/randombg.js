@@ -10,6 +10,7 @@ url('https://nodejs.vn/uploads/files/1490606820692-4.jpg'),
 url('https://nodejs.vn/uploads/files/1490606836348-3.jpg'),
 url('https://nodejs.vn/uploads/files/1490606857006-7.jpg'),
 	];
-	var bgId = Math.floor(Math.random()*9);
-	$('body').css({'background':bgImgs[bgId], 'background-size':'cover', });
+	var bgId = Math.floor((Math.random()*9));
+	var bgImg = bgImgs[bgId];
+	$('body').css({'background':bgImg, 'background-size':'cover', });
 });
